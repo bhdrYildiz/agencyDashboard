@@ -18,9 +18,9 @@ import { usePathname } from 'next/navigation';
 const navItems = [
     { name: 'Dashboard', href: '/', icon: Squares2X2Icon },
     { name: 'My Booking', href: '/bookings', icon: CalendarDaysIcon },
-    { name: 'My Listings', href: '/listings', icon: ClipboardDocumentListIcon },
-    { name: 'Add Tour', href: '/add-tour', icon: PlusCircleIcon },
-    { name: 'My Favorites', href: '/favorites', icon: HeartIcon },
+    { name: 'Calendar', href: '/calendar', icon: ClipboardDocumentListIcon },
+    { name: 'Tasks', href: '/tasks', icon: HeartIcon },
+    { name: 'Add Bookings', href: '/addBookings', icon: PlusCircleIcon },
     { name: 'Messages', href: '/messages', icon: ChatBubbleOvalLeftEllipsisIcon },
     { name: 'My Profile', href: '/profile', icon: UserCircleIcon },
     { name: 'Logout', href: '/logout', icon: ArrowRightOnRectangleIcon },
